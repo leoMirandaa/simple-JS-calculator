@@ -1,4 +1,5 @@
 function calculation() {
+
   //get the values from the prompt and store the in two vars
   let number1 = Number(prompt("Enter the number 1:"))
   let number2 = Number(prompt("Enter the number 2:"))
@@ -16,6 +17,7 @@ function calculation() {
   document.getElementById("multiplication").innerHTML = `${number1} * ${number2} = ${multiplication}`
   document.getElementById("division").innerHTML = `${number1} / ${number2} = ${divison.toFixed(2)}`
 
+  document.getElementById('calculators').style.display = 'flex';
   // document.getElementById("results").innerHTML = `
   // <p>The sum is: ${sum}</p>`
 }

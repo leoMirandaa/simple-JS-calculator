@@ -56,19 +56,21 @@ body {
   margin-bottom: 10px;
   width: 100px;
   cursor: pointer;
-  transition: .7s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .btn-container button:hover {
-  font-size: 17px;
-  transform: rotate(360deg);
+  box-shadow: 4px 4px 4px#D56170;
+  background-color: #fdd692;
 }
 
 .calculators-container {
+  transition: .7s ease-in-out;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   width: 55%;
+  display: none;
 }
 
 .calculator-container {
