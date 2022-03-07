@@ -11,13 +11,10 @@ function calculation() {
   let divison = number1 / number2
 
   //display the result in the html
-  // console.log(`sum:${sum}, sub:${substraction}, mult:${multiplication}, div:${divison}`);
   document.getElementById("sum").innerHTML = `${number1} + ${number2} = ${sum}`
   document.getElementById("substraction").innerHTML = `${number1} - ${number2} = ${Math.round(substraction)}`
   document.getElementById("multiplication").innerHTML = `${number1} * ${number2} = ${multiplication}`
   document.getElementById("division").innerHTML = `${number1} / ${number2} = ${divison.toFixed(2)}`
 
   document.getElementById('calculators').style.display = 'flex';
-  // document.getElementById("results").innerHTML = `
-  // <p>The sum is: ${sum}</p>`
 }
